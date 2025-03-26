@@ -8,7 +8,7 @@ import {
   Languages, 
   PaintBucket, 
   Radical, 
-  WavePulse
+  BarChart2
 } from "lucide-react";
 
 export type Topic = {
@@ -64,7 +64,7 @@ export const topics: Topic[] = [
   {
     id: "statistics",
     name: "Statistics",
-    icon: WavePulse,
+    icon: BarChart2,
     color: "#F9A620",
     description: "Analyze and interpret data to uncover patterns and insights.",
     questionCount: 87
